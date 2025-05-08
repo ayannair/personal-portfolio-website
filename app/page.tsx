@@ -15,7 +15,7 @@ import { AnimatedBackground } from '@/components/ui/animated-background'
 import {
   PROJECTS,
   WORK_EXPERIENCE,
-  BLOG_POSTS,
+  ALBUM_REVIEWS,
   EMAIL,
   SOCIAL_LINKS,
 } from './data'
@@ -137,8 +137,12 @@ export default function Personal() {
       >
         <div className="flex-1">
           <p className="text-zinc-600 dark:text-zinc-400">
-            Focused on creating intuitive and performant web experiences.
-            Bridging the gap between design and development.
+            I am a student at the <b style={{ color: '#FFCB05' }}>University of Michigan</b> studying Computer Science with a minor in Electrical Engineering. 
+            My interests lie in hardware-software integration, full-stack development, and software engineering. 
+            <br></br><br></br>
+            This summer, I will be working at <b>Astera Labs</b> as a Product and Ecosystem Intern, where I aim to contribute to advancing AI infrastructure. 
+            <br></br><br></br>
+            In my free time, I love listening to, playing, producing, and critiquing music. I am also an avid soccer and mixed martial arts enjoyer. Check out my album reviews below!
           </p>
         </div>
       </motion.section>
@@ -147,7 +151,7 @@ export default function Personal() {
         variants={VARIANTS_SECTION}
         transition={TRANSITION_SECTION}
       >
-        <h3 className="mb-5 text-lg font-medium">Selected Projects</h3>
+        <h3 className="mb-5 text-lg font-medium">Featured Projects</h3>
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
           {PROJECTS.map((project) => (
             <div key={project.name} className="space-y-2">
@@ -214,7 +218,7 @@ export default function Personal() {
         variants={VARIANTS_SECTION}
         transition={TRANSITION_SECTION}
       >
-        <h3 className="mb-3 text-lg font-medium">Blog</h3>
+        <h3 className="mb-3 text-lg font-medium">Album Reviews</h3>
         <div className="flex flex-col space-y-0">
           <AnimatedBackground
             enableHover
@@ -225,7 +229,7 @@ export default function Personal() {
               duration: 0.2,
             }}
           >
-            {BLOG_POSTS.map((post) => (
+            {ALBUM_REVIEWS.map((post) => (
               <Link
                 key={post.uid}
                 className="-mx-3 rounded-xl px-3 py-3"
