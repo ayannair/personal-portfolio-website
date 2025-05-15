@@ -36,6 +36,14 @@ export const PROJECTS: Project[] = [
     video: '/videos/albumace.mp4',
     id: 'project1',
   },
+  {
+    name: 'UEFA Euro 2024 Tournament Predictor',
+    description:
+      'Random Forest-based model to predict the winner of the UEFA Euro 2024',
+    link: 'https://github.com/ayannair/euros_2024_predictor',
+    video: '/images/euros_2024_logo.jpg',
+    id: 'project1',
+  },
 ]
 
 export const WORK_EXPERIENCE: WorkExperience[] = [
