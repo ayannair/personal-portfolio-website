@@ -42,7 +42,7 @@ export const PROJECTS: Project[] = [
       'Random Forest-based model to predict the winner of the UEFA Euro 2024',
     link: 'https://github.com/ayannair/euros_2024_predictor',
     video: '/images/euros_2024_logo.jpg',
-    id: 'project1',
+    id: 'project2',
   },
 ]
 

@@ -137,7 +137,7 @@ export default function Personal() {
       >
         <div className="flex-1">
           <p className="text-zinc-600 dark:text-zinc-400">
-            I am a student at the <b style={{ color: '#FFCB05' }}>University of Michigan</b> studying Computer Science with a minor in Electrical Engineering. 
+            I am a student at the <b style={{ color: '#FFCB05' }}>University of Michigan</b> studying Computer Science Engineering with a minor in Electrical Engineering. 
             My interests lie in hardware-software integration, full-stack development, and software engineering. 
             <br></br><br></br>
             This summer, I will be working at <b>Astera Labs</b> as a Product and Ecosystem Intern, where I aim to contribute to advancing AI infrastructure. 
