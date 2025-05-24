@@ -59,7 +59,7 @@ export const WORK_EXPERIENCE: WorkExperience[] = [
     company: 'Kappa Theta Pi',
     title: 'Project Manager',
     start: 'Jan 2025',
-    end: 'May 2025',
+    end: 'Present',
     link: 'https://ktpmichigan.com/',
     id: 'work2',
   },

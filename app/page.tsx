@@ -140,7 +140,7 @@ export default function Personal() {
             I am a student at the <b style={{ color: '#FFCB05' }}>University of Michigan</b> studying Computer Science Engineering with a minor in Electrical Engineering. 
             My interests lie in hardware-software integration, full-stack development, and software engineering. 
             <br></br><br></br>
-            This summer, I will be working at <b>Astera Labs</b> as a Product and Ecosystem Intern, where I aim to contribute to advancing AI infrastructure. 
+            This summer, I will be working at <b>Astera Labs</b> as a Product and Ecosystem Intern, where I aim to contribute to advancing AI and cloud infrastructure. 
             <br></br><br></br>
             In my free time, I love listening to, playing, producing, and critiquing music. I am also an avid soccer and mixed martial arts enjoyer. Check out my album reviews below!
           </p>
