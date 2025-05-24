@@ -31,7 +31,7 @@ export const PROJECTS: Project[] = [
   {
     name: 'AlbumAce',
     description:
-      'Platform for users to rate and review music albums.',
+      'Platform for users to rate and review music albums',
     link: 'https://albumace.vercel.app/',
     video: '/videos/albumace.mp4',
     id: 'project1',
@@ -43,6 +43,14 @@ export const PROJECTS: Project[] = [
     link: 'https://github.com/ayannair/euros_2024_predictor',
     video: '/images/euros_2024_logo.jpg',
     id: 'project2',
+  },
+  {
+    name: 'visuAIize',
+    description:
+      'Assistive contextualization tool for the visually impaired',
+    link: 'https://devpost.com/software/visuaiize',
+    video: '/images/visuAIize.png',
+    id: 'project3',
   },
 ]
 
